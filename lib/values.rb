@@ -12,7 +12,7 @@ def get_the_values(groceries)
 
   groceries.collect { |type,grocery|
     grocery.collect { |e|
-      return e
+      "#{e}"
     }
   }
 end
