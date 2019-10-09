@@ -12,7 +12,7 @@ def get_the_min(groceries)
   grocery_array = []
   min = ""
   groceries.each { |type,grocery|
-    
-    
+
+
   }
 end
