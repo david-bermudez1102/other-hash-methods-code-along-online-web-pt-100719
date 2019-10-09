@@ -10,6 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
 
+values = []
   groceries.collect { |type,grocery|
     grocery.collect { |e|
       "#{e}"
