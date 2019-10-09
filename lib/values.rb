@@ -9,6 +9,10 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  grocerie_values = groceries.values
-  grocerie_values
+
+  groceries.collect { |type,grocery|
+    grocery.colect { |e|
+      e
+    }
+  }
 end
