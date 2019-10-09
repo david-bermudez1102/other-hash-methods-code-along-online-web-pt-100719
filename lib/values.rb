@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
 
   groceries.collect { |type,grocery|
-    grocery.colect { |e|
+    grocery.collect { |e|
       e
     }
   }
